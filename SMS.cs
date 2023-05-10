@@ -1,6 +1,4 @@
-using System;
-
-class SMS : ISender
+public class SMS : ISender
 {
     public void Send(object? sender, OrderEventArgs args)
     {

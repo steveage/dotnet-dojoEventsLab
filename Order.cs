@@ -1,6 +1,4 @@
-using System;
-
-class Order {
+public class Order {
     public event EventHandler<OrderEventArgs> OnCreated = delegate{};
 
     public void Create() {

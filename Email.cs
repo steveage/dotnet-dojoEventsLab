@@ -1,6 +1,4 @@
-using System;
-
-class Email : ISender
+public class Email : ISender
 {
     public void Send(object? sender, OrderEventArgs args)
     {
